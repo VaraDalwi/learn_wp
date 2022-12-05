@@ -1,0 +1,160 @@
+/**
+Theme Name: MyTheme
+Author: VD
+Version: 1.0
+*/
+
+.learndash-wrapper .ld-focus .ld-focus-sidebar{
+	background-color:#F0F0F0 !important;
+    padding-top: 76px !important;
+}
+.learndash-wrapper .ld-focus .ld-focus-header .ld-content-actions{
+    display:none !important;
+}
+.learndash-wrapper .ld-focus .ld-focus-main .ld-focus-content .ld-lesson-status, .learndash-wrapper .ld-focus .ld-focus-main .ld-focus-content .ld-topic-status{
+    display: none !important;
+}
+.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation .ld-lesson-item{
+    background-color: #f7f7f7 !important;
+    border: none !important;
+    margin-bottom: 7px !important;
+}
+.learndash-wrapper .ld-focus .ld-focus-header{
+    padding: 10px 15px !important;
+    box-shadow: 0px 1px 5px #0000002e !important;
+    height: 75px !important;
+}
+.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation-heading{
+    background-color: #f0f0f0 !important;
+    padding: 5px 10px !important;
+    justify-content: normal !important;
+}
+.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-focus-sidebar-trigger{
+    display: none !important;
+}
+.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation-heading h3{
+    padding: 0% !important;
+}
+.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation-heading h3 a{
+    color: #01AED3 !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+}
+.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation-heading h3 .ld-icon{
+    display: none !important;
+}
+.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active{
+    background-color: #fff !important;
+    color: #01AED3 !important;
+    box-shadow: -1px -1px 5px #00000029;
+    padding: 20px 50px !important;
+    border-radius: 8px 8px 0px 0px !important;
+}
+.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab{
+    background-color: #01AED3 !important;
+    color: #fff !important;
+    box-shadow: inset 3px -3px 5px #00000036;
+    padding: 8px 40px 20px 40px !important;
+    border-radius: 8px 8px 0px 0px !important;
+}
+.learndash-wrapper .ld-tabs .ld-tabs-navigation:after{
+    width: 347px !important;
+}
+.learndash-wrapper .ld-content-actions{
+    background-color: #222222 !important;
+    position: fixed;
+    z-index: 999;
+    left: 23%;
+    bottom: 0;
+    width: 77%;
+    padding: 10px 10px 5px 10px !important;
+}
+.ld-empty{
+    display: none !important;
+}
+.learndash-wrapper .ld-content-actions .ld-content-action .ld-course-step-back{
+    font-size: 12px !important;
+    font-weight: 700 !important;
+}
+.learndash-wrapper .ld-button{
+    background-color: #222222 !important;
+    color: #01AED3 !important;
+    border: 1px solid #01AED3 !important;
+}
+.learndash-wrapper .ld-focus .ld-focus-main .ld-focus-content{
+    padding: 7rem 0rem !important;
+}
+.learndash-wrapper .ld-table-list .ld-table-list-header{
+    background-color: #01aed32b !important;
+    color: #666666 !important;
+}
+.learndash-wrapper .ld-focus .ld-focus-header .ld-content-action, .learndash-wrapper .ld-focus .ld-focus-header .ld-progress{
+    border-left: 1px solid #e2e7ed !important;
+    border-right: none !important;
+    position: relative !important;
+    right: -20%;
+}
+.learndash-wrapper .ld-focus .ld-focus-header .ld-progress{
+    max-width: 15% !important;
+}
+.learndash-wrapper .ld-table-list .ld-table-list-item{
+    border: none !important;
+}
+.learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading, .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-title{
+    color: #01AED3 !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+.learndash-wrapper .ld-course-navigation .ld-lesson-item-preview .ld-lesson-title{
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+.learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading .ld-status-incomplete, .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-title .ld-status-incomplete{
+    border: 1px solid #00000042 !important;
+}
+.learndash-wrapper .ld-course-navigation .ld-lesson-item-preview .ld-expand-button .ld-icon{
+    order: 2 !important;
+    margin-top: -25px !important;
+    font-size: 11px !important;
+}
+.learndash-wrapper .ld-course-navigation .ld-lesson-item-preview .ld-expand-button{
+    justify-content: space-between !important;
+}
+.learndash-wrapper .ld-expand-button.ld-button-alternate .ld-icon{
+    background-color: #fff !important;
+    color: #01AED3 !important;
+    border: 1px solid #66666645 !important;
+    height: 35px !important;
+    line-height: 14px !important;
+    padding: 11px !important;
+    width: 35px !important;
+    font-weight: 100 !important;
+}
+.learndash-wrapper .ld-expand-button.ld-button-alternate .ld-icon:hover{
+    background-color: #01AED3 !important;
+    color: #fff !important;
+    border: 1px solid #01AED3 !important;
+}
+.learndash-wrapper .ld-expand-button.ld-button-alternate .ld-text{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #999999 !important;
+}
+.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation .ld-topic-list.ld-table-list{
+    background-color: #f7f7f7 !important;
+}
+.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation .ld-lesson-item:hover{
+    border-left: 5px solid #01AED3 !important;
+    transition: 0.7s!important;
+}
+.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation .ld-lesson-item{
+    box-shadow: 2px 2px 4px #00000021 !important;
+}
+.learndash-wrapper .ld-course-navigation .ld-table-list.ld-topic-list .ld-table-list-item .ld-table-list-item-preview .ld-topic-title{
+    font-size: 14px !important;
+}
+.learndash-wrapper .ld-lesson-list.ld-item-list .ld-item-list-item .ld-table-list .ld-table-list-items:hover{
+    background-color: #fff !important;
+    border-left: 5px solid #01AED3 !important;
+    transition: 0.7s!important;
+}
